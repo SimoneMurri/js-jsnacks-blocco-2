@@ -2,7 +2,19 @@
 
 
 const array = [];
+let sum = 0;
 
-let userNumber = prompt("Type your number");
-array.push(userNumber);
+while (sum < 50) {
+    let userNumber = parseInt(prompt("Type your number"));
+    array.push(userNumber);
+    sum = sum + userNumber;
+}
+
+console.log("Numbers entered", array);
+
+
+
+
+
+
 
